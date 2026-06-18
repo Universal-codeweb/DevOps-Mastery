@@ -69,6 +69,18 @@ git commit -m "First Commit"
 
 git push
 
+New-Item
+
+cd
+
+ls
+
+mkdir
+
+del
+
+rmkdir
+
 ```
 
 ## Practical Work
