@@ -1,0 +1,35 @@
+body{
+    background-image:url(../images/main.jpeg);
+
+}
+header{
+    color:aliceblue;
+    text-align: center;
+    font-display: fallback;
+}
+h2{
+    color:rgba(68, 17, 17, 0.832);
+    text-align: center;
+}
+#sign-up{
+    text-align: center;
+}
+.sign-up-box{
+    width: 400px;
+    background-color: rgb(238, 232, 228);
+    border: 3px solid black;
+    padding:20px;
+    margin: 50px auto;
+    border-radius: 20px;
+    
+}
+.sign-up-box input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: brown;
+}
+button{
+    background-color: rgb(152, 156, 88);
+    border-radius: 10px;
+}

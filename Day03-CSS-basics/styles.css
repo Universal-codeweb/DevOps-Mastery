@@ -1,0 +1,89 @@
+body{
+    background-color:rgb(247, 240, 223);
+}
+header{
+    background-color:rgba(139, 84, 61, 0.431);
+    color: rgb(249, 249, 249);
+    font-style:oblique;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: rgba(8, 52, 8, 0.263);
+    text-align: center;
+    padding: 15px;
+}
+.box{
+    border: 3px;
+}
+#about{
+    text-align: center;
+}
+.btn{
+    border-radius: 15px;
+    border-color: brown;
+    color: cadetblue;
+}
+#login{
+    text-align: center;
+   
+}
+#login input{
+    border-radius: 15px;
+    border-color: black;
+    border: 3px;
+    width:30%;
+    
+}
+#login button{
+    border-radius: 15px;
+    color: rgb(4, 4, 4);
+    border-color: black;
+    background-color: goldenrod;
+}
+.tab{
+    text-align: center;
+    color: dimgray;
+    
+}
+#share{
+    text-align: center;
+
+}
+#share input{
+    border-radius: 15px;
+    border-color: black;
+    border: 3px;
+    width:30%;
+}
+#share textarea{
+    border-radius: 15px;
+    width:20%;
+    border-color: black;
+    border: 3px;
+}
+#share button{
+    border-radius: 15px;
+    color: rgb(4, 4, 4);
+    border-color: black;
+    background-color: goldenrod;
+}
+.btn button{
+    border-radius: 15px;
+    color: rgb(4, 4, 4);
+    border-color: black;
+    background-color: goldenrod;
+}
+.design{
+    text-align: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blue;
+}
