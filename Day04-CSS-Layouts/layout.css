@@ -1,0 +1,104 @@
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:#222;
+    padding:20px;
+}
+nav a{
+    color: white;
+    padding: 10px 20px;
+}
+nav a:hover{
+    color:darkolivegreen
+}
+
+header:hover{
+    color:rgb(9, 9, 9)
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 3em;
+    gap:40px;
+}
+.hero-text{
+    flex:1;
+}
+.hero-image{
+    flex:1;
+    
+}
+.hero-image img{
+    border-radius: 20px;
+}
+
+.steps{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+
+    padding:40px;
+}
+
+.step-card{
+    width:250px;
+
+    border:1px;
+    padding:20px;
+    border-radius:10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:70px;
+
+    background:black;
+    color:white;
+}
+.tab table{
+    margin: auto;
+}
+
+.card{
+    width:200px;
+    padding:20px;
+    border: 1px solid black;
+    flex-basis: 300px;
+    flex-grow:1;
+}
+#login{
+    height:70vh;
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+}
+.step-card{
+    flex-basis:200px;
+    flex-grow:1;
+    text-align: center;
+    background-color:azure;
+}
+.step-card:hover{
+    border: 30px;
+    background-color: moccasin;
+}
+@media(max-width:768px){
+    nav{
+        flex-direction:column;
+        gap:10px;
+    }
+}

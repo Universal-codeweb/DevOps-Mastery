@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Universian Space</title>
     <link rel ="stylesheet" href ="../Day03-CSS-basics/styles.css">
+    <link rel ="stylesheet" href ="../Day04-CSS-Layouts/layout.css">
 </head>
 <body>
     <header>
@@ -12,32 +13,45 @@
     </header>
     
     <nav>
-        <a href="#about" class="box">About</a>
-        <a href= form.html class="box">Sign up </a> 
-        <a href="#Profile" class="box">Profile</a>
+        <a href="#about" class="box1">About</a>
+        <a href= form.html class="box2">Sign up </a>
+        <a href="#login" class="box3">Login</a>
+        <a href="#service" class="box3">Service</a>
+        
     </nav>
     <main>
-        <section id = "about">
-            <h2 >Welcome to architect the whole universe</h2>
-            <p>Here you can able to build, understand, create, enhance your model of your workspace</p>
+        <section id = "about" class = "hero">
+            <div class = hero-text>
+                <h2 >Welcome to architect the whole universe</h2>
+                <p>Here you can able to build, understand, create, enhance your model of your workspace</p>
+            </div>
+            <div class = hero-image>
+                <img src = "../images/model.jpeg" alt = "Architectural Model" width = 100%>
+            </div>
         </section>
     
         <br>
-        <section>
-            <h3>How to work</h3>
-            <ol>
-                <li>Go to work/create by clicking the link</li>
-                <li>Continue filling the details to the model or AI</li>
-                <li>Click on create a model</li>
-                <li>View the model</li>
-                <li>Edit it if you want to</li>
-                <li>Rewrite the prompt you need</li>
-            </ol>
+        <section class="steps" id ="service">
+
+            <div class="step-card">
+                <h3>Step 1</h3>
+                <p>Go to work/create</p>
+            </div>
+
+            <div class="step-card">
+                <h3>Step 2</h3>
+                <p>Fill the details</p>
+            </div>
+
+            <div class="step-card">
+                <h3>Step 3</h3>
+                <p>Create the model</p>
+            </div>
+
         </section>
         <section id ="design">
             <div>
-                <a href = "https://luw.ai/" target ="_blank" class="btn"><button>Create design</button></a>
-                <img src = "../images/model.jpeg" alt = "Architectural Model" width = 100%>
+                <a href = "https://luw.ai/" target ="_blank" class="btn" ><button>Create design</button></a>
                 <br>
             </div>
         </section>
@@ -48,8 +62,10 @@
                 <input type = "text">
                 <label>Mail Id :</label>
                 <input type = "email">
-                <lablel>Message</lablel>
+                <br><br>
+                <label>Message</label>
                 <textarea></textarea>
+                <br><br>
                 <button>Send</button>
             </form>
             <br><br>
