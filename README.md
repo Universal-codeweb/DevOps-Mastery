@@ -25,7 +25,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Box model, cards, navigation bars
 * Hover effects and UI enhancement
 
-## ✅ Day 4 – CSS Layouts & Responsive Design
+✅ **Day 4 – CSS Layouts & Responsive Design**
 
 * Flexbox fundamentals (`display:flex`)
 * `flex-direction`, `justify-content`, `align-items`
@@ -36,7 +36,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Viewport meta tag
 * Media Queries for mobile-friendly design
 
-## ✅ Day 5 – Git & Multi-Section Page
+✅ **Day 5 – Git & Multi-Section Page**
 
 * Git fundamentals and version control
 * `git init`, `git status`, `git add`, `git commit`
