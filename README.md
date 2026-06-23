@@ -45,6 +45,34 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Testing workflow using a dedicated `testing` branch
 * Merging tested changes into `main`
 * Building and styling a multi-section webpage
+✅ **Day 6 – JavaScript Variables, Types & Operators**
+
+* Variable declarations using `let` and `const`
+* Understanding JavaScript data types
+  * Number
+  * String
+  * Boolean
+  * Null
+  * Symbol
+  * Array
+* Comparison operators
+  * `==`, `===`
+  * `!=`, `!==`
+* Arithmetic operators
+  * `+`, `-`, `*`, `/`, `%`
+* Objects and object methods
+* Understanding the `this` keyword
+* Introduction to Regular Expressions (Regex)
+* Case-insensitive pattern matching using the `i` flag
+* Practiced data manipulation and operator-based expressions
+
+📝 **Pending Learning**
+
+* Deep dive into JavaScript expressions
+* Expression evaluation and operator precedence
+* Logical expressions (`&&`, `||`, `!`)
+* Conditional (ternary) expressions
+* Complex expression building and real-world usage
 
 
 ## Progress Tracker
