@@ -97,6 +97,3 @@ rmkdir
 
 * Connected repository to GitHub
 
-## Reflection
-
-Today I learned how websites are structured, how developers manage code using Git and GitHub, and how to set up a professional development environment.
