@@ -14,3 +14,6 @@ console.log(res);
 let pt =/universe/i;
 let i = "Universe is a mystery";
 console.log(pt.test(i));
+let regex = /./;
+let str = "Hello";
+console.log(str.match(regex));

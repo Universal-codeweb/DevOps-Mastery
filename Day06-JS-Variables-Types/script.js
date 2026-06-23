@@ -21,18 +21,18 @@ let sy1 = Symbol("Geeks");
 let sy2 = Symbol("Geeks");
 console.log(s1==s2);
 //arrays
-const galaxies =[ Andro, milky, Tone];
-console.log(galaxies);
+//const galaxies =[Andro, milky, Tone];
+//console.log(galaxies);
 //Operators
+//comparison operators
 let n3 = '5';
 console.log(n1==n3);
 console.log(n1===n3);
 console.log(n1!=n3);
 console.log(n1!==n3);
-
+//Arithmetic operators
 console.log(n1+n2);
 console.log(n1%n2);
 console.log(n1/n2);
 console.log(n1-n2);
 console.log(n1*n2);
-
