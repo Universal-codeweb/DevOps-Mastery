@@ -4,7 +4,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 
 ## Learning Log
 
-### June 18, 2026
+### June 18, 2026 started
 
 ✅ **Day 1 – Foundations**
 
@@ -12,11 +12,15 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Git & GitHub workflow
 * Repository management
 
+---
+
 ✅ **Day 2 – HTML Fundamentals**
 
 * Webpage structure
 * Semantic HTML
 * Forms, tables, images, and navigation
+
+---
 
 ✅ **Day 3 – CSS Fundamentals**
 
@@ -25,9 +29,12 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Box model, cards, navigation bars
 * Hover effects and UI enhancement
 
+---
+### June 19, 2026
+
 ✅ **Day 4 – CSS Layouts & Responsive Design**
 
-* Flexbox fundamentals (`display:flex`)
+* Flexbox fundamentals (`display: flex`)
 * `flex-direction`, `justify-content`, `align-items`
 * Perfect centering and spacing using `gap`
 * `flex-wrap` for responsive layouts
@@ -35,6 +42,8 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Responsive units (`%`, `vw`, `vh`, `em`, `rem`)
 * Viewport meta tag
 * Media Queries for mobile-friendly design
+
+---
 
 ✅ **Day 5 – Git & Multi-Section Page**
 
@@ -45,35 +54,91 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Testing workflow using a dedicated `testing` branch
 * Merging tested changes into `main`
 * Building and styling a multi-section webpage
+
+---
+### June 22, 2026
 ✅ **Day 6 – JavaScript Variables, Types & Operators**
 
 * Variable declarations using `let` and `const`
-* Understanding JavaScript data types
+* JavaScript primitive and reference data types
+
   * Number
   * String
   * Boolean
   * Null
   * Symbol
   * Array
-* Comparison operators
-  * `==`, `===`
-  * `!=`, `!==`
+  * Object
 * Arithmetic operators
-  * `+`, `-`, `*`, `/`, `%`
-* Objects and object methods
+* Comparison operators
+* Object methods
 * Understanding the `this` keyword
 * Introduction to Regular Expressions (Regex)
-* Case-insensitive pattern matching using the `i` flag
-* Practiced data manipulation and operator-based expressions
+* Case-insensitive matching using the `i` flag
+* Practiced data manipulation using operators
 
-📝 **Pending Learning**
+---
+### June 23, 2026
+✅ **Day 7 – JavaScript Functions**
 
-* Deep dive into JavaScript expressions
-* Expression evaluation and operator precedence
-* Logical expressions (`&&`, `||`, `!`)
-* Conditional (ternary) expressions
-* Complex expression building and real-world usage
+* Function declaration
+* Function expression
+* Anonymous functions
+* Named function expressions
+* Arrow functions
+* Immediately Invoked Function Expressions (IIFE)
+* Callback functions
+* Function parameters and return values
+* Scope and variable accessibility
+* Practical function implementation
 
+---
+### June 24, 2026
+✅ **Day 8 – JavaScript Arrays & Objects**
+
+### Arrays
+
+* Creating arrays using literals and constructors
+* Accessing array elements
+* Array properties (`length`)
+* Array destructuring
+* Nested arrays
+* Merging arrays using spread operator
+* Swapping variables using destructuring
+
+### Array Methods
+
+* `push()`
+* `pop()`
+* `shift()`
+* `unshift()`
+* `slice()`
+* `concat()`
+* `join()`
+* `fill()`
+* `includes()`
+* `indexOf()`
+
+### Static Array Methods
+
+* `Array.isArray()`
+
+### Objects & Properties
+
+* Creating objects
+* Object properties
+* Object methods
+* Method shorthand
+* Dot notation
+* Bracket notation
+* Adding object properties
+* Updating object properties
+* Deleting object properties
+* Computed property names
+* Object spread operator
+* Object destructuring
+
+---
 
 ## Progress Tracker
 
@@ -82,11 +147,9 @@ Documenting my daily progress through practical learning, experimentation, and h
 * [x] Day 3
 * [x] Day 4
 * [x] Day 5
-* [ ] Day 6
-* [ ] Day 7
-* [ ] Day 8
+* [x] Day 6
+* [x] Day 7
+* [x] Day 8
 * [ ] Day 9
 * [ ] Day 10
 * [ ] Day 11
-
-

@@ -36,3 +36,5 @@ Created a mini website called "Tekrearc" featuring:
 ## Status
 
 ✅ Day 02 Completed
+📄 [View Source Code](.form.html)
+📄 [View Source Code](.index.html)
