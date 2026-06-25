@@ -11,7 +11,8 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Development environment setup
 * Git & GitHub workflow
 * Repository management
-
+📄 [View detailed explanation](Day01-Setup-Orientation/18-06-2026.md)
+📄 [View Source Code](index.html)
 ---
 
 ✅ **Day 2 – HTML Fundamentals**
@@ -19,6 +20,8 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Webpage structure
 * Semantic HTML
 * Forms, tables, images, and navigation
+📄 [View Source Code](form.html)
+📄 [View Source Code](index.html)
 
 ---
 
@@ -28,6 +31,8 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Selectors, classes, and IDs
 * Box model, cards, navigation bars
 * Hover effects and UI enhancement
+📄 [View Source Code](form.css)
+📄 [View Source Code](styles.css)
 
 ---
 ### June 19, 2026
@@ -42,6 +47,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Responsive units (`%`, `vw`, `vh`, `em`, `rem`)
 * Viewport meta tag
 * Media Queries for mobile-friendly design
+📄 [View Source Code](layout.css)
 
 ---
 
@@ -76,6 +82,9 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Introduction to Regular Expressions (Regex)
 * Case-insensitive matching using the `i` flag
 * Practiced data manipulation using operators
+📄 [View Source Code](expressions.js)
+📄 [View Source Code](index.js)
+📄 [View Source Code](script.js)
 
 ---
 ### June 23, 2026
@@ -91,6 +100,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Function parameters and return values
 * Scope and variable accessibility
 * Practical function implementation
+📄 [View Source Code](fun.js)
 
 ---
 ### June 24, 2026
@@ -106,23 +116,6 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Merging arrays using spread operator
 * Swapping variables using destructuring
 
-### Array Methods
-
-* `push()`
-* `pop()`
-* `shift()`
-* `unshift()`
-* `slice()`
-* `concat()`
-* `join()`
-* `fill()`
-* `includes()`
-* `indexOf()`
-
-### Static Array Methods
-
-* `Array.isArray()`
-
 ### Objects & Properties
 
 * Creating objects
@@ -137,6 +130,26 @@ Documenting my daily progress through practical learning, experimentation, and h
 * Computed property names
 * Object spread operator
 * Object destructuring
+📄 [View Source Code](arrays.js)
+📄 [View Source Code](Objects.js)
+---
+
+
+✅ **Day 9 – JavaScript Loops & Conditional Statements**
+
+* `for` loop
+* `for...in`
+* `for...of`
+* `forEach()`
+* `while` loop
+* `do...while` loop
+* Working with `Map`
+* Reversing a number using loops
+* `if`, `if...else`, `else if` ladder
+* `switch` statement
+* Iteration over arrays and objects
+* Practical loop and conditional programming exercises
+📄 [View Source Code](practice.js)
 
 ---
 
