@@ -406,4 +406,4 @@ rem;
 * Viewport meta tag enables proper scaling.
 * Media Queries adapt layouts for different screen sizes.
 * Responsive design ensures usability across mobile, tablet, and desktop devices.
-📄 [View Source Code](.layout.css)
+📄 [View Source Code](layout.css)

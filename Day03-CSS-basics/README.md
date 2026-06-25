@@ -126,5 +126,5 @@ Successfully transformed a basic HTML webpage into a visually enhanced website u
 * CSS3
 * Git
 * GitHub
-📄 [View Source Code](.form.css)
-📄 [View Source Code](.styles.css)
+📄 [View Source Code](form.css)
+📄 [View Source Code](styles.css)
