@@ -11,30 +11,32 @@
         <h1>Tekrearc</h1>
     </header>
     <section id = "sign-up">
-        <h2>Sign Up</h2>
+        <h2 id ="heading">Sign Up</h2>
         <div class = "sign-up-box">
             <form>
                 <label>Name</label>
-                <input type = "text">
+                <input type = "text" id = "text">
                 <br><br>
                 <label>Email</label>
-                <input type = "email">
+                <input type = "email" id ="email">
                 <br><br>
                 <label> Password</label>
-                <input type = "password">
+                <input type = "password" id = "password">
+                <span id ="charCount">0</span>
+                <p id = "strength"></p>
                 <br><br>
                 <label>User Type:</label>
-                <input type = "radio" name="p">Public
-                <input type = "radio" name="p">Architect
-                <input type = "radio" name="p">Student
-                <input type = "radio" name="p">Admin
+                <input type = "radio" name="p" value ="public">Public
+                <input type = "radio" name="p" value ="architect">Architect
+                <input type = "radio" name="p" value ="student">Student
+                <input type = "radio" name="p" value ="admin">Admin
                 <br><br>
-                <button>Sign Up</button>
-
+                <button id ="signupbtn">Sign Up</button>
+                <p id ="message"></p>
             </form>
         </div>
     </section>
     
-    
+    <script src = "../Day10-DOM-events/signup.js"></script>
 </body>
 </html>

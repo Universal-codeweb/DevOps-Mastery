@@ -33,3 +33,8 @@ button{
     background-color: rgb(152, 156, 88);
     border-radius: 10px;
 }
+#charCount{
+    font-size: 14px;
+    color: gray;
+    min-width: 20px;
+}
