@@ -225,6 +225,23 @@ Documenting my daily progress through practical learning, experimentation, and h
 📄 [View Source Code](poke.html)  
 📄 [View Source Code](poke.js)
 
+## ✅ Day 14 – TypeScript Introduction
+
+* Introduction to TypeScript
+* Installing and setting up TypeScript (`tsc`)
+* Compiling `.ts` files to `.js`
+* Running TypeScript with Node.js
+* Static typing and type annotations
+* Type inference
+* Variables and data types (`string`, `number`, `boolean`)
+* Arrays (`string[]`)
+* Functions with `void` return type
+* Practiced creating variables, arrays, functions, and console output
+* Identified and fixed common TypeScript errors
+
+📄 [View Source Code](intro.ts)
+
+
 ---
 
 
@@ -242,6 +259,6 @@ Documenting my daily progress through practical learning, experimentation, and h
 * [x] Day 10
 * [x] Day 11
 * [x] Day 12
-* [ ] Day 13
-* [ ] Day 14
+* [x] Day 13
+* [x] Day 14
 * [ ] Day 15
