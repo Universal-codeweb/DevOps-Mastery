@@ -241,6 +241,18 @@ Documenting my daily progress through practical learning, experimentation, and h
 
 📄 [View Source Code](intro.ts)
 
+✅ **Day 15 – TypeScript Object Types & Interfaces**
+
+* Object types and typed objects
+* Creating reusable interfaces
+* Using interfaces with objects
+* Passing interfaces as function parameters
+* Function return types (`void`, `number`)
+* Implementing interfaces using classes
+* Type safety and compile-time error checking
+* Practical implementation with objects, interfaces, functions, and classes
+
+📄 [View Source Code](practice15.ts)
 
 ---
 
