@@ -1,0 +1,96 @@
+# Day 17 – React Components & Props (Deep Dive)
+
+## React Components
+
+Created reusable components using functions that return JSX. Each component represents a small part of the UI and can be used multiple times throughout the application.
+
+```tsx
+function Greetings(props: GreetingProps) {
+    return <h2>Hello {props.name} 👋</h2>;
+}
+```
+
+The component receives data through `props` and displays a dynamic greeting based on the value passed from the parent component.
+
+---
+
+## Props
+
+Defined custom prop types using TypeScript to ensure components receive the correct data.
+
+```tsx
+type GreetingProps = {
+    name: string;
+}
+```
+
+Passing props:
+
+```tsx
+<Greetings name="Toko" />
+<Greetings name="Universe" />
+<Greetings name="React" />
+```
+
+Each component call passes a different value, allowing the same component to render different content.
+
+---
+
+## StudentCard Component
+
+Created a reusable component to display student information.
+
+```tsx
+type SCardProps = {
+    name: string;
+    age: number;
+    role: string;
+}
+
+function StudentCard(props: SCardProps) {
+    return (
+        <>
+            <h2>{props.name}</h2>
+            <p>Age: {props.age}</p>
+            <p>Role: {props.role}</p>
+        </>
+    );
+}
+```
+
+The component accepts multiple props and renders the student's name, age, and role dynamically.
+
+---
+
+## Component Tree
+
+Built the application using multiple reusable components.
+
+```text
+App
+│
+├── Greetings
+├── Header
+├── StudentCard
+└── Footer
+```
+
+React starts with the `App` component and executes each child component to build the complete user interface.
+
+---
+
+## Component Composition
+
+Explored the concept of wrapping components inside another reusable component using `Card` and understood how React conceptually passes content through `props.children` for creating flexible layouts.
+
+---
+
+## Code Practiced
+
+- Creating reusable components
+- Importing and exporting components
+- Passing data using props
+- Defining prop types with TypeScript
+- Rendering multiple component instances
+- Parent and child component hierarchy
+- Component composition using `props.children`
