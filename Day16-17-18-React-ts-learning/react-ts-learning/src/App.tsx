@@ -2,7 +2,8 @@ import Greetings from './Greetings.tsx'
 import Header from './Header.tsx'
 import Footer from './Footer.tsx'
 import StudentCard from './StudentCard.tsx'
-//import Card from './Card.tsx'
+import Counter from './Counter.tsx'
+import ChangeEmoji from './ChangeEmoji.tsx'
 import './App.css'
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
       />
      
       
-      
+      <Counter/>
+      <hr></hr>
+      <ChangeEmoji/>
       <Footer/>
 
 
