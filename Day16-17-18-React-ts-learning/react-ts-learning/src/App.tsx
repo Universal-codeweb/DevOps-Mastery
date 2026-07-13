@@ -3,6 +3,7 @@ import Header from './Header.tsx'
 import Footer from './Footer.tsx'
 import StudentCard from './StudentCard.tsx'
 import Counter from './Counter.tsx'
+import UseEffectLearning from './Counter2.tsx'
 import ChangeEmoji from './ChangeEmoji.tsx'
 import './App.css'
 
@@ -24,6 +25,7 @@ function App() {
      
       
       <Counter/>
+      <Counter2/>
       <hr></hr>
       <ChangeEmoji/>
       <Footer/>

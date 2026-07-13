@@ -273,4 +273,7 @@ Documenting my daily progress through practical learning, experimentation, and h
 * [x] Day 12
 * [x] Day 13
 * [x] Day 14
-* [ ] Day 15
+* [x] Day 15
+* [x] Day 16
+* [x] Day 17
+* [x] Day 18
