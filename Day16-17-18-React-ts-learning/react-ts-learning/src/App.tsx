@@ -5,6 +5,7 @@ import StudentCard from './StudentCard.tsx'
 import Counter from './Counter.tsx'
 import UseEffectLearning from './Counter2.tsx'
 import ChangeEmoji from './ChangeEmoji.tsx'
+import StudentList from './StudentList.tsx'
 import './App.css'
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       <hr></hr>
       <ChangeEmoji/>
       <Footer/>
+      <StudentList/>
 
 
     </>
