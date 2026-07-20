@@ -4,7 +4,7 @@ function StudentList() {
         "Toko",
         "Universe",
         "Yuzhou",
-        "Nakul"
+        "Uno"
     ];
 
     return (

@@ -6,7 +6,10 @@ import Counter from './Counter.tsx'
 import UseEffectLearning from './Counter2.tsx'
 import ChangeEmoji from './ChangeEmoji.tsx'
 import StudentList from './StudentList.tsx'
+import EffectDemo from "./EffectDemo.tsx";
+
 import './App.css'
+
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -26,12 +29,12 @@ function App() {
      
       
       <Counter/>
-      <Counter2/>
+      <UseEffectLearning/>
       <hr></hr>
       <ChangeEmoji/>
       <Footer/>
       <StudentList/>
-
+      <EffectDemo/>
 
     </>
   );
