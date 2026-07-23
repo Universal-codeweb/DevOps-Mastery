@@ -12,9 +12,9 @@ export class StudentsService {
     return [
       {
         id: 1,
-        name: "Uno",
-        department: "CSE"
-      }
+        name: 'Uno',
+        department: 'CSE',
+      },
     ];
   }
 
