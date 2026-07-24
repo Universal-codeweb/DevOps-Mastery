@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Injectable } from '@nestjs/common';
 import { CreateStudentDto } from './dto/create-student.dto';
 import { UpdateStudentDto } from './dto/update-student.dto';
@@ -5,7 +6,10 @@ import { UpdateStudentDto } from './dto/update-student.dto';
 @Injectable()
 export class StudentsService {
   create(createStudentDto: CreateStudentDto) {
-    return 'This action adds a new student';
+    return {
+      message: 'Student created successfully',
+      data: createStudentDto,
+    };
   }
 
   findAll() {
